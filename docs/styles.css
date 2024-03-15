@@ -1,0 +1,36 @@
+.navbar-nav > li {
+  display: inline-block;
+  margin-right: 20px; /* Añade separación entre las opciones */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222; /* Fondo más oscuro */
+}
+
+.navbar-nav > li > a {
+  color: white; /* Texto en blanco */
+  text-decoration: none; /* Evita el subrayado */
+}
+
+.navbar-nav > li.active > a {
+  color: white; /* Texto en blanco cuando se selecciona */
+}
+
+/* Agrega un margen superior al contenido principal */
+.content-container {
+  margin-top: 70px; /* Ajusta el valor según sea necesario */
+}
+
+.imagenes {
+  max-width: 70%; /* Limita el ancho de la imagen al 100% del contenedor padre */
+  height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+}
+
+.cajablancaynegra {
+  max-width: 50%; /* Limita el ancho de la imagen al 100% del contenedor padre */
+  height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+}
