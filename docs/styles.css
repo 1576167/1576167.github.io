@@ -26,11 +26,21 @@
 }
 
 .imagenes {
-  max-width: 70%; /* Limita el ancho de la imagen al 100% del contenedor padre */
+  max-width: 60%; /* Limita el ancho de la imagen al 100% del contenedor padre */
   height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
 }
 
 .cajablancaynegra {
   max-width: 50%; /* Limita el ancho de la imagen al 100% del contenedor padre */
   height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+}
+
+.footer-container {
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
